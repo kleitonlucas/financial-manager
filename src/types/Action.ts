@@ -1,4 +1,6 @@
+import { TransactionType } from "./TransactionType";
+
 export type Action = {
-    type: 'setCurrentPage'; /**Colocar os outros possíveos types */
-    payload: any
+    type: 'setCurrentPage' | 'addTransaction'; /**Colocar os outros possíveos types */
+    payload: any;
 }

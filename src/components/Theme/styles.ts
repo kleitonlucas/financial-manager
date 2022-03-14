@@ -18,11 +18,21 @@ export const Header = styled.div`
     align-items: center;
     padding: 0 30px;
     box-sizing: border-box;
+    
+`;
+export const HeaderUser = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    h5{
+        font-weight: lighter;
+    }
     div{
         width: 50px;
         height: 50px;
         background-color: #6DA7F2;
+        margin-left: 10px;
         border-radius: 50%;
         box-shadow: 0 0 8px #FFF;
     }
@@ -75,6 +85,8 @@ export const Content = styled.div`
     background-color: #1C1B19;
     border-radius: 10px;
     flex: 4;
+    display: flex;
+    flex-direction: column;
 `;
 
 export const Footer = styled.div`

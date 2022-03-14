@@ -13,4 +13,10 @@ const App = () => {
 }
 
 export default App;
-/**Parei em 58min */
+/**Parei em 1:13:00 */
+
+/**
+ * Próximos passos: 
+ * - Adicionar novas transações
+ * - Mostrar tabela
+ */

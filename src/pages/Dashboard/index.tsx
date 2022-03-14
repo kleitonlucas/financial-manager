@@ -1,7 +1,11 @@
 import * as C from "./styles";
 import { Theme } from "../../components/Theme";
+import { useUser } from "../../hooks/useUser";
+import { TransactionTable } from "../../components/TransactionTable";
 
 export const Dashboard = () => {
+    const {state, dispatch} = useUser();
+
     return (
         <Theme>
             <C.Container>
@@ -26,7 +30,7 @@ export const Dashboard = () => {
                     <C.SideLeft>
                         <h3>Movimentações Recentes</h3>
                         <C.SideLeftTable>
-                            Tabela
+                            <TransactionTable />
                         </C.SideLeftTable>
                     </C.SideLeft>
                     <C.SideRight>

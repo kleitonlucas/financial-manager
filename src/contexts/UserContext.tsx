@@ -8,7 +8,10 @@ type UserProviderProps = {
 }
 
 const initialData: State = {
-    currentPage: 'dashboard'
+    id: 1001,
+    name: 'Kleiton Lucas',
+    currentPage: 'dashboard',
+    transactions: undefined
 }
 
 export const UserContext = createContext<ContextType | undefined>(undefined);

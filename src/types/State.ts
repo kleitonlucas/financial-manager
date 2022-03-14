@@ -1,3 +1,8 @@
+import { TransactionType } from "./TransactionType";
+
 export type State = {
-    currentPage: string
+    id: number,
+    name: string,
+    currentPage: string,
+    transactions: TransactionType[] | undefined;
 }
